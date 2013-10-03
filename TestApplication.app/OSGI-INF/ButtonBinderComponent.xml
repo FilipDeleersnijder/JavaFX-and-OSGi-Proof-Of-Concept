@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="TestApplication.app">
+   <implementation class="TestApplication.app.ButtonBinderImpl"/>
+   <reference bind="bindButtonProvider" cardinality="1..1" interface="testapplication.buttonprovider.ButtonProvider" name="ButtonProvider" policy="static" unbind="unbindButtonProvider"/>
+   <reference bind="bindApplicationService" cardinality="1..1" interface="TestApplication.app.ApplicationService" name="ApplicationService" policy="static" unbind="unbindApplicationService"/>ion.app.ButtonBinderImpl"/>
+</scr:component>

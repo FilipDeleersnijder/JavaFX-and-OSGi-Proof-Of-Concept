@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+	id="TestApplication.app.feature"
+	label="TestApplication Application Feature"
+	version="1.0.0.qualifier"
+	provider-name="${BundleProject_bundleVendor}"
+	>
+		<description url="http://www.efxclipse.org">
+			TODO FILL WITH CONTENT
+		</description>
+
+		<copyright url="http://www.efxclipse.org">
+			TODO FILL WITH CONTENT
+		</copyright>
+
+		<license url="http://www.efxclipse.org">
+			TODO FILL WITH CONTENT
+		</license>
+
+   		<plugin id="TestApplication.app" install-size="0" version="0.0.0" unpack="false" />
+   		<plugin id="org.eclipse.fx.osgi" install-size="0" version="0.0.0" unpack="false" fragment="true"/>
+   		<plugin id="org.eclipse.fx.javafx" install-size="0" version="0.0.0" unpack="false" />
+   		<plugin id="org.eclipse.fx.core.databinding" install-size="0" version="0.0.0" unpack="false" />
+   		<plugin id="org.eclipse.core.databinding" install-size="0" version="0.0.0" unpack="false" />
+   		<plugin id="org.eclipse.core.databinding.observable" install-size="0" version="0.0.0" unpack="false" />
+   		<plugin id="org.eclipse.core.databinding.property" install-size="0" version="0.0.0" unpack="false" />
+   		<plugin id="org.eclipse.equinox.app" install-size="0" version="0.0.0" unpack="false" />
+   		<plugin id="org.eclipse.osgi" install-size="0" version="0.0.0" unpack="false" />
+   		<plugin id="org.eclipse.equinox.common" install-size="0" version="0.0.0" unpack="false" />
+   		<plugin id="org.eclipse.equinox.registry" install-size="0" version="0.0.0" unpack="false" />
+   		<plugin id="org.eclipse.equinox.ds" install-size="0" version="0.0.0" unpack="false" />
+   		<plugin id="org.eclipse.equinox.event" install-size="0" version="0.0.0" unpack="false" />
+   		<plugin id="org.eclipse.equinox.util" install-size="0" version="0.0.0" unpack="false" />
+   		<plugin id="org.eclipse.osgi.services" install-size="0" version="0.0.0" unpack="false" />
+   		<plugin id="com.ibm.icu" install-size="0" version="0.0.0" unpack="false" />
+   		<plugin id="org.eclipse.core.runtime" install-size="0" version="0.0.0" unpack="false" />
+   		<plugin id="org.eclipse.core.jobs" install-size="0" version="0.0.0" unpack="false" />
+   		<plugin id="org.eclipse.equinox.preferences" install-size="0" version="0.0.0" unpack="false" />
+   		<plugin id="org.eclipse.core.contenttype" install-size="0" version="0.0.0" unpack="false" />
+
+
+</feature>
