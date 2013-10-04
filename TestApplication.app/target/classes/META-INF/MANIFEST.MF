@@ -35,4 +35,9 @@ Import-Package: javafx.animation;version="2.0.0",
  javafx.scene.transform;version="2.0.0",
  javafx.scene.web;version="2.0.0",
  javafx.stage;version="2.0.0",
- javafx.util;version="2.0.0"
+ javafx.util;version="2.0.0",
+ org.osgi.framework;version="1.7.0",
+ testapplication.buttonprovider
+Bundle-Activator: TestApplication.app.Activator
+Bundle-ActivationPolicy: lazy
+Service-Component: OSGI-INF/ButtonBinderComponent.xml
