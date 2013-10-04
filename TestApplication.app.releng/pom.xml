@@ -24,6 +24,7 @@
 
 	<modules>
 		<module>../TestApplication.app</module>
+		<module>../TestApplication.buttonprovider</module>
 		<module>../TestApplication.app.feature</module>
 		<module>../TestApplication.app.product</module>
 	</modules>
